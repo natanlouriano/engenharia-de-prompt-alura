@@ -1,0 +1,120 @@
+# Projeto Final: Engenharia de Prompt - Capítulo 5
+**Curso:** Engenharia de Prompt: criando prompts eficazes para IA Generativa
+**Atividade:** Mão na Massa / Entrega da Unidade Final
+
+## 1. Descrição do Cenário e Objetivo
+O objetivo deste projeto é criar um prompt estruturado de alta performance utilizando as técnicas avançadas de Engenharia de Prompt abordadas no Capítulo 5. O foco é automatizar e padronizar a criação de cronogramas de estudo e conciliação de rotina para estudantes de tecnologia, mitigando respostas genéricas (alucinações) e garantindo um formato de saída estrito.
+
+# CONTEXTO E PAPEL
+Você é um especialista em Aprendizagem Acelerada, Psicologia Cognitiva e Planejamento Estratégico de Carreira em Tecnologia. Sua missão é criar um cronograma de estudos e conciliação de rotina ultra-personalizado, realista e focado em alta retenção para estudantes da área de tecnologia.
+
+# DIRETRIZES DE EXECUÇÃO
+1. **Pé no Chão:** O cronograma deve ser matematicamente viável dentro das horas disponíveis do usuário. Nunca ultrapasse o limite diário informado.
+2. **Mitigação de Alucinações:** Não invente métodos de estudo sem comprovação ou ferramentas que não existem. Se uma informação necessária não for fornecida nas variáveis, use a suposição mais segura e lógica para a área de tecnologia.
+3. **Distribuição Cognitiva:** Intercale disciplinas densas (ex: Estrutura de Dados, Cálculo) com atividades práticas (ex: Codificação, Projetos). Inclua pausas de recuperação (Técnica Pomodoro ou similar).
+
+# VARIÁVEIS DO ESTUDANTE (INPUT)
+- **Objetivo Final:** [Ex: Transição de carreira para Desenvolvimento Back-end Java / Passar na matéria de Arquitetura de Computadores]
+- **Nível Atual:** [Ex: Iniciante absoluto / Intermediário em lógica, mas zero em Java]
+- **Tempo Disponível:** [Ex: 3 horas por dia de segunda a sexta, 6 horas no sábado, domingo livre]
+- **Rotina Atual:** [Ex: Trabalho CLT das 08h às 18h, tempo de deslocamento de 1h]
+- **Estilo de Aprendizagem Preferencial:** [Ex: Prático/Projetos, Vídeos, Leitura de documentação]
+
+# REGRAS DE SAÍDA E FORMATO ESTRITO
+Você deve responder **apenas** estruturando o plano nos três blocos abaixo, sem textos introdutórios ou conclusivos genéricos ("Claro, vou te ajudar com isso..."). Use Markdown estrito.
+
+---
+
+## 1. ANÁLISE DE VIABILIDADE E CARGA HORÁRIA
+* **Total de Horas Semanais Disponíveis:** [X] horas.
+* **Distribuição de Carga:** [X]% Teoria (Documentação/Aulas) | [Y]% Prática (Código/Projetos) | [Z]% Revisão Espaçada.
+* **Gargalos de Rotina Identificados:** [Identifique o maior risco de o estudante falhar no plano devido à rotina dele e como mitigar].
+
+## 2. CRONOGRAMA SEMANAL (MATRIZ DE ALOCAÇÃO)
+| Dia | Bloco de Horário | Conteúdo/Foco do Estudo | Método/Entregável Prático |
+| :--- | :--- | :--- | :--- |
+| Segunda | [Ex: 19:30 - 21:00] | [Conteúdo Específico] | [Ex: Implementar 1 miniprojeto/revisar flashcards] |
+| Terça | ... | ... | ... |
+| Quarta | ... | ... | ... |
+| Quinta | ... | ... | ... |
+| Sexta | ... | ... | ... |
+| Sábado | ... | ... | ... |
+| Domingo | ... | ... | ... |
+
+## 3. PROTOCOLO DE CONCILIAÇÃO E MANUTENÇÃO (ANTI-BURNOUT)
+* **Estratégia para Dias de Cansaço Extremo (Plano B):** [O que o estudante deve fazer em um dia caótico para não perder a consistência, ex: micro-hábito de 15 minutos].
+* **Métrica de Sucesso Semanal:** [Como o estudante sabe, objetivamente, que a semana foi produtiva].
+
+## 2. Prompt Estruturado ## Cronograma Semanal de Alta Performance (21h Totais)
+
+---
+
+### 📅 Segunda-feira: Fundação e Código Base
+
+* **55 min | Teoria (Pilar 1):** Consumo de conteúdo teórico da faculdade ou documentação oficial.
+* **1h 35 min | Prática (Pilar 2):** Codificação inicial, configuração de ambiente e escrita das primeiras linhas do projeto.
+* **30 min | Descanso/Desconexão (Pilar 3):** Afastamento total das telas para consolidação mental.
+
+### 📅 Terça-feira: Foco Técnico e Aplicação
+
+* **55 min | Teoria (Pilar 1):** Resolução de algoritmos conceituais ou conceitos de arquitetura.
+* **1h 35 min | Prática (Pilar 2):** Desenvolvimento de funcionalidades do projeto (clean code e refatoração).
+* **30 min | Descanso/Desconexão (Pilar 3):** Pausa limpa sem estímulos digitais.
+
+### 📅 Quarta-feira: Engenharia Reversa e Ajustes
+
+* **1h 30 min | Prática (Pilar 2):** Resolução de bugs, testes unitários ou implementação de APIs.
+* **45 min | Revisão Ativa (Pilar 3):** Explicação do código criado para si mesmo (Técnica Feynman) ou anotações rápidas.
+* **45 min | Descanso/Desconexão (Pilar 3):** Atividade física leve ou lazer longe do computador.
+
+### 📅 Quinta-feira: Expansão de Conhecimento
+
+* **55 min | Teoria (Pilar 1):** Estudo de novos frameworks, bancos de dados ou padrões de projeto.
+* **1h 35 min | Prática (Pilar 2):** Integração dos conceitos estudados diretamente no repositório do projeto.
+* **30 min | Descanso/Desconexão (Pilar 3):** Higiene mental pré-sono.
+
+### 📅 Sexta-feira: Fechamento de Ciclo
+
+* **55 min | Teoria (Pilar 1):** Leitura técnica ou revisão de matérias teóricas complexas da faculdade.
+* **1h 35 min | Prática (Pilar 2):** Finalização de uma branch ou feature específica do projeto pessoal.
+* **30 min | Descanso/Desconexão (Pilar 3):** Desconexão completa para iniciar o final de semana sem pendências mentais.
+
+### 📅 Sábado: Consolidação e Portfólio
+
+* **1h 30 min | Prática (Pilar 2):** Commits finais, documentação do Readme no GitHub ou deploy da aplicação.
+* **45 min | Revisão Ativa (Pilar 3):** Análise do progresso da semana e planejamento dos blocos teóricos da próxima.
+* **45 min | Descanso/Desconexão (Pilar 3):** Lazer obrigatório para prevenção de burnout.
+
+### 📅 Domingo: Reset Estrutural (Sustentabilidade)
+
+* **3h 00 min | Descanso Total (Pilar 3):** Zero código. Zero teoria. Dedique o dia para interações sociais, hobbies fora da área de tecnologia e recuperação neurológica completa.
+
+---
+
+> **Métrica de Distribuição Semanal Alcançada:** > * 30% Teoria (~6,3h) | 50% Prática (~10,5h) | 20% Revisão/Descanso (~4,2h dentro dos blocos de estudo) + Domingo livre para sustentabilidade a longo prazo.
+## 3. Justificativa das Técnicas Aplicadas 
+
+* **Definição de Persona:** Ao iniciar com *"Atue como um Mentor de Carreira..."*, delimitamos o vocabulário e o nível de especialidade que a IA deve adotar, evitando respostas superficiais.
+* **Segmentação por Blocos (Contexto, Tarefa, Restrições):** O uso de marcações claras ajuda os Grandes Modelos de Linguagem (LLMs) a processarem as instruções sem misturar as regras de formatação com o objetivo principal.
+* **Técnica de Few-Shot (Exemplos):** Fornecer um modelo de saída esperado reduz drasticamente a chance de a IA inventar uma estrutura confusa ou prolixa.
+* **Restrição de Escopo (Conclusão Direta):** Proibir introduções clichês força o modelo a focar os tokens de geração diretamente no valor que o usuário precisa (o cronograma).
+Este é um excelente exemplo de **Cronograma Semanal de Alta Performance** estruturado por blocos de tempo (técnica semelhante ao *Time-Blocking*). Ele reflete com precisão todas as restrições e métricas definidas na sua justificativa anterior.
+
+---
+
+### 🧠 Análise de Eficácia do Cronograma
+
+* **Sustentabilidade (Prevenção de Burnout):** A inclusão de pausas de 30 a 45 minutos sem telas (higiene mental) e o **Domingo de Reset Estrutural** garantem que o ritmo de 21 horas semanais seja mantido a longo prazo.
+* **Aplicação Prática (50%):** O foco em codificação, resolução de bugs e commits no GitHub garante a criação de um portfólio real, evitando a "armadilha do tutorial" (ficar apenas assistindo a aulas).
+* **Técnica Feynman (Quarta e Sábado):** A revisão ativa explicando o código para si mesmo força a recuperação da memória, aumentando drasticamente a retenção do que foi praticado.
+
+---
+
+### 🚀 Próximos Passos Recomendados
+
+Para transformar este cronograma em execução real, você pode:
+
+1. **Definir as Ferramentas:** Escolher onde vai controlar esses blocos (Google Calendar, Notion ou um cronômetro Pomodoro adaptado para blocos de 55min/1h35min).
+2. **Definir o Escopo do Projeto:** Qual é o projeto principal (aplicativo, API, site) que receberá essas 10,5h de prática semanal?
+
+Qual é a maior dificuldade que você costuma encontrar na hora de seguir um cronograma rígido como este?
